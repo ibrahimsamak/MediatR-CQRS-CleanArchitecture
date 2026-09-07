@@ -1,0 +1,16 @@
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\bin\Debug\net10.0\OrderFlow.Benchmarks.exe
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\bin\Debug\net10.0\OrderFlow.Benchmarks.deps.json
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\bin\Debug\net10.0\OrderFlow.Benchmarks.runtimeconfig.json
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\bin\Debug\net10.0\OrderFlow.Benchmarks.dll
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\bin\Debug\net10.0\OrderFlow.Benchmarks.pdb
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\bin\Debug\net10.0\OrderFlow.Benchmarks.xml
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\OrderFlow.Benchmarks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\OrderFlow.Benchmarks.AssemblyInfoInputs.cache
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\OrderFlow.Benchmarks.AssemblyInfo.cs
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\OrderFlow.Benchmarks.csproj.CoreCompileInputs.cache
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\OrderFlow.Benchmarks.dll
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\refint\OrderFlow.Benchmarks.dll
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\OrderFlow.Benchmarks.xml
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\OrderFlow.Benchmarks.pdb
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\OrderFlow.Benchmarks.genruntimeconfig.cache
+C:\Users\ibrahim.samak\Desktop\OrderFLow\bench\OrderFlow.Benchmarks\obj\Debug\net10.0\ref\OrderFlow.Benchmarks.dll

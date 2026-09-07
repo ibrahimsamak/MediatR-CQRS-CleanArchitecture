@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|c:\\users\\ibrahim.samak\\desktop\\orderflow\\src\\orderflow.domain\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\common\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\common\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E73C23-8506-4240-97D5-D3D1FFB40E97}|Solution Items{F4E73C23-8506-4240-97D5-D3D1FFB40E97}|C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{F4E73C23-8506-4240-97D5-D3D1FFB40E97}|Solution Items{F4E73C23-8506-4240-97D5-D3D1FFB40E97}|solutionrelative:.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|c:\\users\\ibrahim.samak\\desktop\\orderflow\\src\\orderflow.domain\\orders\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\orders\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\orders\\events\\ordercancelleddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E73C23-8506-4240-97D5-D3D1FFB40E97}|Solution Items{F4E73C23-8506-4240-97D5-D3D1FFB40E97}|C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\Directory.Build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F4E73C23-8506-4240-97D5-D3D1FFB40E97}|Solution Items{F4E73C23-8506-4240-97D5-D3D1FFB40E97}|solutionrelative:Directory.Build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|c:\\users\\ibrahim.samak\\desktop\\orderflow\\src\\orderflow.domain\\orderflow.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{21A576CD-6EA0-734D-C556-F57783CEA875}|src\\OrderFlow.Domain\\OrderFlow.Domain.csproj|solutionrelative:src\\orderflow.domain\\orderflow.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -57,6 +53,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|c:\\users\\ibrahim.samak\\desktop\\orderflow\\src\\orderflow.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35DE7213-A295-DB1F-3F56-6F31D534D51B}|src\\OrderFlow.Api\\OrderFlow.Api.csproj|solutionrelative:src\\orderflow.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\Directory.Build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:Directory.Build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,60 +70,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\Entity.cs",
-              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Common\\Entity.cs",
-              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\Entity.cs",
-              "RelativeToolTip": "src\\OrderFlow.Domain\\Common\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T11:30:57.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AggregateRoot.cs",
-              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\AggregateRoot.cs",
-              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Common\\AggregateRoot.cs",
-              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\AggregateRoot.cs",
-              "RelativeToolTip": "src\\OrderFlow.Domain\\Common\\AggregateRoot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T11:30:34.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": ".editorconfig",
-              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.editorconfig",
-              "RelativeDocumentMoniker": ".editorconfig",
-              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.editorconfig",
-              "RelativeToolTip": ".editorconfig",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAjwAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-07T11:19:44.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ValueObject.cs",
-              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\ValueObject.cs",
-              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Common\\ValueObject.cs",
-              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\ValueObject.cs",
-              "RelativeToolTip": "src\\OrderFlow.Domain\\Common\\ValueObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T11:06:32.586Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -134,7 +86,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-07T11:53:00.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\Entity.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Common\\Entity.cs",
+              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\Entity.cs",
+              "RelativeToolTip": "src\\OrderFlow.Domain\\Common\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T11:30:57.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AggregateRoot.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\AggregateRoot.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Common\\AggregateRoot.cs",
+              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\AggregateRoot.cs",
+              "RelativeToolTip": "src\\OrderFlow.Domain\\Common\\AggregateRoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T11:30:34.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-07T11:19:44.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValueObject.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\ValueObject.cs",
+              "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Common\\ValueObject.cs",
+              "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Common\\ValueObject.cs",
+              "RelativeToolTip": "src\\OrderFlow.Domain\\Common\\ValueObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T11:06:32.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OrderPlacedDomainEvent.cs",
               "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Orders\\Events\\OrderPlacedDomainEvent.cs",
               "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Orders\\Events\\OrderPlacedDomainEvent.cs",
@@ -142,12 +156,11 @@
               "RelativeToolTip": "src\\OrderFlow.Domain\\Orders\\Events\\OrderPlacedDomainEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T08:10:15.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:10:15.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\Orders\\Order.cs",
               "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\Orders\\Order.cs",
@@ -155,8 +168,7 @@
               "RelativeToolTip": "src\\OrderFlow.Domain\\Orders\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T10:55:25.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T10:55:25.797Z"
             },
             {
               "$type": "Document",
@@ -168,8 +180,7 @@
               "RelativeToolTip": "src\\OrderFlow.Domain\\Orders\\OrderStatus.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T08:09:11.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:09:11.358Z"
             },
             {
               "$type": "Document",
@@ -181,8 +192,7 @@
               "RelativeToolTip": "src\\OrderFlow.Domain\\Orders\\IOrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T08:10:39.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:10:39.003Z"
             },
             {
               "$type": "Document",
@@ -194,8 +204,7 @@
               "RelativeToolTip": "src\\OrderFlow.Domain\\Common\\CustError.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T08:38:04.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:38:04.731Z"
             },
             {
               "$type": "Document",
@@ -207,12 +216,11 @@
               "RelativeToolTip": "src\\OrderFlow.Domain\\Orders\\Events\\OrderCancelledDomainEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T08:10:25.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:10:25.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Directory.Build.props",
               "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\Directory.Build.props",
               "RelativeDocumentMoniker": "Directory.Build.props",
@@ -220,38 +228,35 @@
               "RelativeToolTip": "Directory.Build.props",
               "ViewState": "AgIAAAIAAAAAAAAAAAAhwAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-09-07T08:18:55.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:18:55.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderFlow.Domain",
+              "DocumentIndex": 10,
+              "Title": "OrderFlow.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\OrderFlow.Domain.csproj",
               "RelativeDocumentMoniker": "src\\OrderFlow.Domain\\OrderFlow.Domain.csproj",
               "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Domain\\OrderFlow.Domain.csproj",
               "RelativeToolTip": "src\\OrderFlow.Domain\\OrderFlow.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-07T08:12:06.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:12:06.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderFlow.Api",
+              "DocumentIndex": 11,
+              "Title": "OrderFlow.Api.csproj",
               "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Api\\OrderFlow.Api.csproj",
               "RelativeDocumentMoniker": "src\\OrderFlow.Api\\OrderFlow.Api.csproj",
               "ToolTip": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Api\\OrderFlow.Api.csproj",
               "RelativeToolTip": "src\\OrderFlow.Api\\OrderFlow.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-07T08:12:38.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:12:38.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\ibrahim.samak\\Desktop\\OrderFlow\\src\\OrderFlow.Api\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "src\\OrderFlow.Api\\WeatherForecast.cs",
@@ -259,8 +264,7 @@
               "RelativeToolTip": "src\\OrderFlow.Api\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T08:04:30.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T08:04:30.642Z"
             }
           ]
         },

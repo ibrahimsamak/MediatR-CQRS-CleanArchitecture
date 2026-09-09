@@ -1,0 +1,17 @@
+<!-- tests/Directory.Build.props: inherits the root settings, relaxes rules that only make sense for shipping code. -->
+<Project>
+
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <!--
+      CA1707: test names are Method_Scenario_Expectation by convention.
+      CA1034: test doubles are nested inside the fixture that owns them.
+      CA2007: there is no synchronization context to capture in a test host.
+      CA1861: inline literal arrays in assertions are clearer than named constants.
+    -->
+    <NoWarn>$(NoWarn);CA1707;CA1034;CA2007;CA1861</NoWarn>
+  </PropertyGroup>
+
+</Project>

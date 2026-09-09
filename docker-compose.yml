@@ -1,0 +1,10 @@
+services:
+  sql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Your_password123"
+    ports: ["1433:1433"]
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]

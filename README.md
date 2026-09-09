@@ -11,16 +11,12 @@ scattered through controllers.
 ## Table of contents
 
 - [Why this exists](#why-this-exists)
-- [Architecture](#architecture)
 - [The request pipeline](#the-request-pipeline)
 - [CQRS: two models, one database](#cqrs-two-models-one-database)
 - [Domain model](#domain-model)
 - [Transactional outbox](#transactional-outbox)
 - [API](#api)
 - [Getting started](#getting-started)
-- [Project layout](#project-layout)
-- [Tech stack](#tech-stack)
-- [Design decisions](#design-decisions)
 
 ---
 
@@ -39,41 +35,6 @@ the parts that decide whether the pattern survives contact with production:
 | Exceptions turning into opaque 500s | A global `IExceptionHandler` mapping to RFC 7807 ProblemDetails |
 | Concurrent edits silently overwriting each other | SQL `rowversion` optimistic concurrency, surfaced as `409 Conflict` |
 
-## Architecture
-
-Four projects, dependencies pointing **inward**. Nothing in the inner rings knows the
-outer ones exist.
-
-```
-        ┌────────────────────────────────────────────────┐
-        │  OrderFlow.Api  (composition root)             │  controllers, filters,
-        │                                                │  ProblemDetails, health
-        └──────────────┬───────────────────┬─────────────┘
-                       │                   │
-        ┌──────────────▼─────────────┐     │
-        │  OrderFlow.Infrastructure  │     │  EF Core, Redis, outbox dispatcher
-        └──────────────┬─────────────┘     │
-                       │                   │
-        ┌──────────────▼───────────────────▼─────────────┐
-        │  OrderFlow.Application                         │  commands, queries,
-        │  commands · queries · behaviors · contracts    │  pipeline behaviors
-        └──────────────┬─────────────────────────────────┘
-                       │
-        ┌──────────────▼─────────────────────────────────┐
-        │  OrderFlow.Domain                              │  aggregates, value objects,
-        │  no infrastructure dependencies                │  domain events, invariants
-        └────────────────────────────────────────────────┘
-```
-
-Interfaces are declared where they are **used** and implemented where the technology
-lives: `IOrderRepository` in `Domain`, `IUnitOfWork` / `ICacheService` / `IOrderReadStore`
-in `Application`, all implemented in `Infrastructure`. The API project is the only place
-that knows about every layer, and it exists to compose them:
-
-```csharp
-builder.Services.AddApplication();                         // MediatR, validators, behaviors
-builder.Services.AddInfrastructure(builder.Configuration);  // EF Core, Redis, outbox, clock
-```
 
 ## The request pipeline
 
@@ -252,67 +213,3 @@ dotnet test
 Connection strings live in `appsettings.json` and match the compose file
 (`localhost,1433` for SQL Server, `localhost:6379` for Redis). Override them with
 user-secrets or environment variables anywhere else.
-
-## Project layout
-
-```
-src/
-  OrderFlow.Domain/              aggregates, value objects, domain events, invariants
-    Common/                      Entity, AggregateRoot, ValueObject, IDomainEvent
-    Orders/                      Order, OrderLine, OrderId, OrderStatus, IOrderRepository
-      ValueObjects/              Money, Address
-      Events/                    OrderPlaced, OrderCancelled
-
-  OrderFlow.Application/         use cases and cross-cutting behavior
-    Common/Behaviors/            Validation, Logging, Transaction
-    Common/Interfaces/           IUnitOfWork, ICacheService, IOrderReadStore, IDateTimeProvider
-    Orders/PlaceOrder/           command + validator + handler
-    Orders/CancelOrder/          command + handler
-    Orders/GetOrderById/         query + handler (cached)
-    Orders/ListOrders/           query + handler (paged projection)
-
-  OrderFlow.Infrastructure/      technology choices, all replaceable
-    Persistence/                 OrderDbContext, configurations, repositories, UnitOfWork
-    Persistence/Interceptors/    domain events → outbox, inside the same transaction
-    Persistence/Outbox/          OutboxMessage
-    BackgroundJobs/              OutboxDispatcherService
-    Caching/                     RedisCacheService (single-flight cache-aside)
-    Time/                        SystemDateTimeProvider
-
-  OrderFlow.Api/                 composition root
-    Controllers/V1/              OrdersController
-    Contracts/                   request records
-    Infrastructure/              GlobalExceptionHandler, IdempotencyFilter
-    Extensions/                  health checks
-
-tests/                           domain, application, and API integration tests
-bench/                           BenchmarkDotNet harness
-docs/adr/                        architecture decision records
-```
-
-## Tech stack
-
-| Area | Choice |
-| --- | --- |
-| Runtime | .NET 10, latest C#, nullable enabled, warnings as errors |
-| Mediation | MediatR — commands, queries, pipeline behaviors |
-| Validation | FluentValidation, executed as a behavior |
-| Persistence | EF Core 10 + SQL Server, owned types, `rowversion` concurrency |
-| Caching | Redis through `IDistributedCache` |
-| API | ASP.NET Core controllers, `Asp.Versioning`, Swashbuckle, ProblemDetails |
-| Resilience | `Microsoft.Extensions.Http.Resilience` standard handler, EF execution strategy |
-| Observability | Live/ready health checks, source-generated structured logging |
-| Testing | xUnit, FluentAssertions |
-
-Quality gates are enforced at build time from `Directory.Build.props`:
-`TreatWarningsAsErrors`, `EnforceCodeStyleInBuild`, and the latest recommended
-analyzer set.
-
-## Design decisions
-
-The reasoning behind the three structural choices — including the alternatives that
-were rejected and the trade-offs accepted — is recorded as ADRs:
-
-- [0001 — Clean Architecture with an inward dependency rule](docs/adr/0001-clean-architecture.md)
-- [0002 — CQRS as separate read/write models over a single database](docs/adr/0002-cqrs-single-database.md)
-- [0003 — Transactional outbox for domain events](docs/adr/0003-outbox-and-domain-events.md)

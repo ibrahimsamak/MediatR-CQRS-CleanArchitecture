@@ -1,0 +1,43 @@
+﻿namespace OrderFlow.Infrastructure.BackgroundJobs;
+
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using OrderFlow.Infrastructure.Persistence;
+
+public sealed class OutboxDispatcherService(
+    IServiceScopeFactory scopeFactory) : BackgroundService
+{
+    private static readonly TimeSpan PollInterval = TimeSpan.FromSeconds(10);
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        using var timer = new PeriodicTimer(PollInterval);
+        while (await timer.WaitForNextTickAsync(stoppingToken))
+        {
+            try
+            {
+                await using var scope = scopeFactory.CreateAsyncScope();
+                var db = scope.ServiceProvider.GetRequiredService<OrderDbContext>();
+
+                var pending = await db.OutboxMessages
+                    .Where(m => m.ProcessedOnUtc == null)
+                    .OrderBy(m => m.OccurredOnUtc)
+                    .Take(20)
+                    .ToListAsync(stoppingToken);
+
+                foreach (var message in pending)
+                {
+                    message.ProcessedOnUtc = DateTime.UtcNow;
+                }
+
+                if (pending.Count > 0)
+                    await db.SaveChangesAsync(stoppingToken);
+            }
+            catch (OperationCanceledException) { }
+            catch (Exception )
+            {
+            }
+        }
+    }
+}
